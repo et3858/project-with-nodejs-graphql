@@ -12,6 +12,7 @@ const {
     getProduct,
     updateProduct,
     deleteProduct,
+    getProductsByCategory,
 } = require('./product.resolvers')
 
 
@@ -40,6 +41,9 @@ const resolvers = {
         deleteProduct,
     },
     CategoryNameType,
+    Category: {
+        products: getProductsByCategory,
+    },
 };
 
 
