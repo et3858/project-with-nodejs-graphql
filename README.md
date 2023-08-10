@@ -1,14 +1,20 @@
-# Install
+# Install modules and dependencies
 
 ```sh
 npm install
 ```
 
 
-# Migrations
+# Run migrations
 
 ```sh
 npm run migrations:run
+```
+
+# Run seeders
+
+```sh
+npm run seed:all
 ```
 
 # Run in dev mode
